@@ -118,7 +118,7 @@ class ViewController: UIViewController {
                         }
                     }
                     self.finalCount = tweetCount
-                    self.count = self.finalCount
+                    self.count = self.finalCount - 1
                     self.timerCount = 0
                 },
                 failure: { (error) in
